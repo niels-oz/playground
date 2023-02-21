@@ -3,4 +3,6 @@
 bin
 lib
 *.cfg
+.DS_Store
+__pycache__
 
