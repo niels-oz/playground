@@ -42,7 +42,7 @@ def enter_move(board):
 
 
 def make_list_of_free_fields(board):
-    # The function browses the board and returns a list of all the empty fields
+    # The function browses the board and returns a list of all empty fields
     empty_fields = []
     for field in board:
         if field != 'O' and field != 'X':
