@@ -30,7 +30,7 @@ def enter_move(board):
     except ValueError:
         print('Error: Please enter a number.')
         enter_move(board)
-    if move > 0 and move < 10:
+    if 0 < move < 10:
         if board[move - 1] == 'X' or board[move - 1] == 'O':
             print('Error: Please pick an empty field.')
             enter_move(board)
